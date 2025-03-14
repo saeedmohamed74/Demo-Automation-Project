@@ -2,6 +2,7 @@ package com.swagLabs.utilts;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.Wait;
 
 public class ElementActions {
     private ElementActions(){
@@ -20,5 +21,11 @@ public class ElementActions {
         Waits.waitForElementClickable(driver, locator);
         Scrolling.scrolltoElement(driver, locator);
         driver.findElement(locator).click();
+    }
+
+    public static String getText(WebDriver driver, By locator){
+        Waits.waitForElementVisible(driver, locator);
+        Scrolling.scrolltoElement(driver, locator);
+        return driver.findElement(locator).getText();
     }
 }
