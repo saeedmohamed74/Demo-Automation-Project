@@ -5,6 +5,7 @@ import com.swagLabs.utilts.CustomSoftAssertion;
 import org.checkerframework.checker.units.qual.A;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.devtools.v132.dom.model.ChildNodeRemoved;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -23,21 +24,20 @@ public class LoginTest {
         new LoginPage(driver).enterUserName("standard_user")
                 .enterPassword("secret_sauce")
                 .clickLoginButton()
-                .assertSuccessLoginSoft();
+                .assertSuccessLogin();
 
     }
     //configurations
     @BeforeMethod
     public void setUp(){
-
-        driver = new EdgeDriver();
+        driver = new ChromeDriver();
         new LoginPage(driver).navigateToLoginPage();
     }
 
     @AfterMethod
     public void tearDown(){
     driver.quit();
-        CustomSoftAssertion.customAssertAll();
+
     }
 
 

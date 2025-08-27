@@ -6,8 +6,6 @@ import com.swagLabs.utilts.ElementActions;
 import com.swagLabs.utilts.Validations;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.bidi.log.Log;
-import org.testng.Assert;
 
 public class LoginPage {
     //locators
@@ -46,7 +44,7 @@ public class LoginPage {
     }
     //validations
 
-    public LoginPage assertLoginpageUrl(){
+    public LoginPage assertLoginPageUrl(){
         CustomSoftAssertion.softAssertion.assertEquals(BrowserActions.getCurrentUrl(driver),
                 "https://www.saucedemo.com/v1/inventory.html");
     return this;
@@ -59,7 +57,7 @@ public class LoginPage {
 
     }
     public LoginPage assertSuccessLoginSoft(){
-        assertLoginpageUrl().assertLoginPageTitle();
+        assertLoginPageUrl().assertLoginPageTitle();
         return this;
     }
 
