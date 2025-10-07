@@ -3,6 +3,7 @@ package com.swagLabs.utilts;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.bidi.log.Log;
 import org.openqa.selenium.support.ui.Wait;
 
 public class ElementActions {
@@ -15,6 +16,7 @@ public class ElementActions {
         Waits.waitForElementVisible(driver, locator);
         Scrolling.scrolltoElement(driver, locator);
         findElement(driver,locator).sendKeys(data);
+        LogsUtil.info("Data entered: ", data , "in the field", locator.toString());
     }
 
     public static void clickElement(WebDriver driver, By locator){
@@ -22,6 +24,7 @@ public class ElementActions {
         Waits.waitForElementClickable(driver, locator);
         Scrolling.scrolltoElement(driver, locator);
         findElement(driver,locator).click();
+        LogsUtil.info("Clicked on element: ", locator.toString());
     }
 
     public static String getText(WebDriver driver, By locator){
@@ -30,6 +33,7 @@ public class ElementActions {
         return findElement(driver,locator).getText();
     }
     public static WebElement findElement(WebDriver driver, By locator){
+
         return driver.findElement(locator);
     }
 }

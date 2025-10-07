@@ -2,9 +2,12 @@ package com.swagLabs.tests;
 
 import com.swagLabs.drivers.DriverManager;
 import com.swagLabs.pages.LoginPage;
+import com.swagLabs.utilts.BrowserActions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+import java.sql.DriverAction;
 
 public class LoginTest_successfulLogin {
     //variables
@@ -30,7 +33,7 @@ public class LoginTest_successfulLogin {
 
     @AfterMethod
     public void tearDown(){
-    DriverManager.getDriver().quit();
+        BrowserActions.closeBrowser(DriverManager.getDriver());
 
     }
 

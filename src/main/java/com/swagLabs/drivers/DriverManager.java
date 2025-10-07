@@ -1,5 +1,6 @@
 package com.swagLabs.drivers;
 
+import com.swagLabs.utilts.LogsUtil;
 import org.openqa.selenium.WebDriver;
 
 import static org.testng.AssertJUnit.fail;
@@ -13,6 +14,7 @@ public class DriverManager {
 
     public static WebDriver createInstance(String browserName){
         WebDriver driver = BrowserFactory.getBrowser(browserName);
+        LogsUtil.info("Driver created on: ", browserName);
         setDriver(driver);
         return getDriver();
     }
