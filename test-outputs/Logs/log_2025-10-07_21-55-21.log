@@ -1,0 +1,5 @@
+[DEBUG] - [07-10-2025 21:55:22] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\har86\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml"
+[INFO] - [07-10-2025 21:55:23] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\har86\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO] - [07-10-2025 21:55:28] [main] [com.swagLabs.drivers.DriverManager] - Driver created on:  chrome

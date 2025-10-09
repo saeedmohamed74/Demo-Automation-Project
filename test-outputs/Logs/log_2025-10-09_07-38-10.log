@@ -1,0 +1,17 @@
+[INFO] - [09-10-2025 07:38:10] [main] [com.swagLabs.drivers.DriverManager] - Driver created on:  chrome
+[INFO] - [09-10-2025 07:38:10] [main] [com.swagLabs.utilts.BrowserActions] - Navigate to:  https://www.saucedemo.com/v1/
+[INFO] - [09-10-2025 07:38:10] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [09-10-2025 07:38:10] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: user-name
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: user-name
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  standard_user in the field By.id: user-name
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: password
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: password
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  secret_sauce in the field By.id: password
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: login-button
+[INFO] - [09-10-2025 07:38:11] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: login-button
+[INFO] - [09-10-2025 07:38:12] [main] [com.swagLabs.utilts.ElementActions] - Clicked on element:  By.id: login-button
+[INFO] - [09-10-2025 07:38:12] [main] [com.swagLabs.utilts.BrowserActions] - Current URL: https://www.saucedemo.com/v1/inventory.html
+[INFO] - [09-10-2025 07:38:12] [main] [com.swagLabs.utilts.BrowserActions] - closing the browser

@@ -1,0 +1,21 @@
+[DEBUG] - [07-10-2025 18:11:32] [main] [org.testng.TestNG] - suiteXmlPath: "C:\Users\har86\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml"
+[INFO] - [07-10-2025 18:11:33] [main] [org.testng.internal.Utils] - [TestNG] Running:
+  C:\Users\har86\AppData\Local\JetBrains\IdeaIC2024.1\temp-testng-customsuite.xml
+
+[INFO] - [07-10-2025 18:11:36] [main] [com.swagLabs.drivers.DriverManager] - Driver created on:  chrome
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.BrowserActions] - Navigate to:  https://www.saucedemo.com/v1/
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: user-name
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: user-name
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  standard_user in the field By.id: user-name
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: password
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: password
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  secret_sauce in the field By.id: password
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: login-button
+[INFO] - [07-10-2025 18:11:37] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: login-button
+[INFO] - [07-10-2025 18:11:38] [main] [com.swagLabs.utilts.ElementActions] - Clicked on element:  By.id: login-button
+[INFO] - [07-10-2025 18:11:38] [main] [com.swagLabs.utilts.BrowserActions] - Current URL: https://www.saucedemo.com/v1/inventory.html
+[INFO] - [07-10-2025 18:11:38] [main] [com.swagLabs.utilts.BrowserActions] - closing the browser

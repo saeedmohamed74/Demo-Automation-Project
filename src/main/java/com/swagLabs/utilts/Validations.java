@@ -1,5 +1,6 @@
 package com.swagLabs.utilts;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
@@ -8,10 +9,11 @@ public class Validations {
     private Validations(){
 
     }
+    @Step("Validate True")
     public static void validateTrue(boolean condition,String message){
         Assert.assertTrue(condition,message);
     }
-
+    @Step("Validate False")
     public static void validateFalse(boolean condition,String message){
         Assert.assertFalse(condition,message);
     }
