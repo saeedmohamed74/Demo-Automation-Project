@@ -16,7 +16,6 @@ public class DriverManager {
     @Step("create driver instance on {browserName}")
     public static WebDriver createInstance(String browserName){
         WebDriver driver = BrowserFactory.getBrowser(browserName);
-        LogsUtil.info("Driver created on: ", browserName);
         setDriver(driver);
         return getDriver();
     }

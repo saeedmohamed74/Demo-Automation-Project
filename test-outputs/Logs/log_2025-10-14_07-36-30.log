@@ -1,0 +1,24 @@
+[INFO] - [14-10-2025 07:36:30] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\08207f02-08e1-4a3e-a126-06e56d392453-result.json
+[INFO] - [14-10-2025 07:36:30] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\50032bf0-4892-4396-a07e-ea977cb905a8-container.json
+[INFO] - [14-10-2025 07:36:30] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\bc3e9ba9-29a3-4fef-a356-8f0abf53d6ac-container.json
+[INFO] - [14-10-2025 07:36:30] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\bc68b2a5-87f2-421c-8a82-0b956cb3aeda-container.json
+[INFO] - [14-10-2025 07:36:30] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\e12bbaf2-c1c9-4e8d-9e89-f18b8960bdd8-container.json
+[INFO] - [14-10-2025 07:36:30] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\fc548bd4-0d4b-4470-925f-a407d8c9ac67-container.json
+[INFO] - [14-10-2025 07:36:36] [main] [com.swagLabs.utilts.BrowserActions] - Navigate to:  https://www.saucedemo.com/v1/
+[INFO] - [14-10-2025 07:36:36] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [14-10-2025 07:36:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: user-name
+[INFO] - [14-10-2025 07:36:37] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: user-name
+[INFO] - [14-10-2025 07:36:37] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  standard_user in the field By.id: user-name
+[INFO] - [14-10-2025 07:36:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [14-10-2025 07:36:37] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: password
+[INFO] - [14-10-2025 07:36:37] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: password
+[INFO] - [14-10-2025 07:36:38] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  secret_sauce in the field By.id: password
+[INFO] - [14-10-2025 07:36:38] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [14-10-2025 07:36:38] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [14-10-2025 07:36:38] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: login-button
+[INFO] - [14-10-2025 07:36:38] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: login-button
+[INFO] - [14-10-2025 07:36:40] [main] [com.swagLabs.utilts.ElementActions] - Clicked on element:  By.id: login-button
+[INFO] - [14-10-2025 07:36:40] [main] [com.swagLabs.utilts.BrowserActions] - Current URL: https://www.saucedemo.com/v1/inventory.html
+[INFO] - [14-10-2025 07:36:40] [main] [com.swagLabs.utilts.BrowserActions] - closing the browser
+[WARN] - [14-10-2025 07:36:41] [main] [com.swagLabs.utilts.FilesUtiles] - No files found in directory: test_outputs/Logs
+[ERROR] - [14-10-2025 07:36:41] [main] [com.swagLabs.utilts.AllureUtils] - 

@@ -73,6 +73,7 @@ public class LoginPage {
 
     public LoginPage assertSuccessLogin() {
         Validations.validatePageUrl(driver, "https://www.saucedemo.com/v1/inventory.html");
+
         return this;
     }
     @Step("Asserting unsuccessful login")

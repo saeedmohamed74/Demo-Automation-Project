@@ -1,0 +1,18 @@
+[INFO] - [13-10-2025 18:14:14] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\2f7b5bc8-4eb9-4810-b106-ecf7a90187fd-container.json
+[INFO] - [13-10-2025 18:14:14] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\3cdf94d5-b1a5-4a5e-8585-e2cc0724266a-container.json
+[INFO] - [13-10-2025 18:14:14] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\672b309e-05a9-4cc3-af0d-f0e60778d27a-container.json
+[INFO] - [13-10-2025 18:14:14] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\77aeba09-90a2-47aa-a2ab-cf3ed96f71c8-container.json
+[INFO] - [13-10-2025 18:14:14] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\78d7a0d7-4265-477e-841a-4ae4cfb360ae-container.json
+[INFO] - [13-10-2025 18:14:14] [main] [com.swagLabs.utilts.FilesUtiles] - File is deleted successfully: test-outputs\allure-results\7e395596-4257-4771-9d24-51af3bb37ef4-result.json
+[INFO] - [13-10-2025 18:14:19] [main] [com.swagLabs.utilts.BrowserActions] - Navigate to:  https://www.saucedemo.com/v1/
+[INFO] - [13-10-2025 18:14:19] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [13-10-2025 18:14:19] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: user-name
+[INFO] - [13-10-2025 18:14:19] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: user-name
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  standard_user in the field By.id: user-name
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: password
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: password
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  secret_sauce in the field By.id: password
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [13-10-2025 18:14:20] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: login-button

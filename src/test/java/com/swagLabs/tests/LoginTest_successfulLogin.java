@@ -2,16 +2,18 @@ package com.swagLabs.tests;
 
 import com.swagLabs.drivers.DriverManager;
 import com.swagLabs.pages.LoginPage;
+import com.swagLabs.utilts.AllureUtils;
 import com.swagLabs.utilts.BrowserActions;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import com.swagLabs.utilts.FilesUtiles;
+import com.swagLabs.utilts.ScreenshotsUtils;
+import org.testng.annotations.*;
 
+import java.io.File;
 import java.sql.DriverAction;
 
 public class LoginTest_successfulLogin {
     //variables
-
+File allure_results = new File("test-outputs/allure-results");
 
     //Tests
 
@@ -22,9 +24,14 @@ public class LoginTest_successfulLogin {
                 .enterPassword("secret_sauce")
                 .clickLoginButton()
                 .assertSuccessLogin();
+        ScreenshotsUtils.takeScreenshot("successful-login");
 
     }
     //configurations
+    @BeforeSuite
+    public void beforeSuite(){
+        FilesUtiles.deleteFiles(allure_results);
+    }
     @BeforeMethod
     public void setUp(){
          DriverManager.createInstance("chrome");
@@ -35,6 +42,10 @@ public class LoginTest_successfulLogin {
     public void tearDown(){
         BrowserActions.closeBrowser(DriverManager.getDriver());
 
+    }
+    @AfterClass
+    public void afterClass(){
+        AllureUtils.attachLogsToAllureReports();
     }
 
 

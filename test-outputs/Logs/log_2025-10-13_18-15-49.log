@@ -1,0 +1,16 @@
+[INFO] - [13-10-2025 18:15:49] [main] [com.swagLabs.utilts.BrowserActions] - Navigate to:  https://www.saucedemo.com/v1/
+[INFO] - [13-10-2025 18:15:49] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: user-name
+[INFO] - [13-10-2025 18:15:49] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: user-name
+[INFO] - [13-10-2025 18:15:49] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: user-name
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  standard_user in the field By.id: user-name
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: password
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: password
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: password
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.ElementActions] - Data entered:  secret_sauce in the field By.id: password
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be clickable:  By.id: login-button
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be visible:  By.id: login-button
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.Waits] - Waiting for element to be present:  By.id: login-button
+[INFO] - [13-10-2025 18:15:50] [main] [com.swagLabs.utilts.Scrolling] - Scrolling to the element:  By.id: login-button
+[INFO] - [13-10-2025 18:15:51] [main] [com.swagLabs.utilts.ElementActions] - Clicked on element:  By.id: login-button
+[INFO] - [13-10-2025 18:15:51] [main] [com.swagLabs.utilts.BrowserActions] - Current URL: https://www.saucedemo.com/v1/inventory.html
+[INFO] - [13-10-2025 18:15:51] [main] [com.swagLabs.utilts.BrowserActions] - closing the browser
